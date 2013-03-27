@@ -1,3 +1,7 @@
+import AssemblyKeys._ 
+
+assemblySettings
+
 name := "asm-example"
 
 version := "0.0.1-SNAPSHOT"

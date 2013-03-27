@@ -1,1 +1,34 @@
 assembly
+inspect run
+run
+assembly
+assembly package-dependency
+assembly-package-dependency
+run
+assembly-package-dependencies
+assembly-package-dependency
+q
+quit
+sbt
+assembly-package-dependency
+sbt assembly
+assembly
+compile
+run
+run 
+run
+1
+run
+ru
+run
+exit
+run
+exit
+run
+relaod
+reload
+run
+sbt
+exit
+run
+exit
