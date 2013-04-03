@@ -1,0 +1,17 @@
+import java.lang.reflect.*;
+public class DumpLoader {
+
+    public static void main(String[] args) throws Exception {
+        DynamicClassLoader loader = new DynamicClassLoader();
+        Class<?> helloWorldClass = loader.define("Hello", HelloDump.dump());
+        Method method = helloWorldClass.getMethod("main", String[].class);
+        method.invoke(null, (Object) new String[] {});
+    }
+    public static class DynamicClassLoader extends ClassLoader {
+        public Class<?> define(String className, byte[] bytecode) {
+            return super.defineClass(className, bytecode, 0, bytecode.length);
+        }
+    };
+
+    
+}
