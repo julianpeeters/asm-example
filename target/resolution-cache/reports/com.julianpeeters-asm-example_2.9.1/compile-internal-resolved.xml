@@ -7,7 +7,7 @@
 		revision="0.0.1-SNAPSHOT"
 		conf="compile-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom"
-		date="20130401232702"/>
+		date="20130402215056"/>
 	<dependencies>
 		<module organisation="org.ow2.asm" name="asm-all">
 			<revision name="4.1" status="release" pubdate="20121014083936" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="1">
