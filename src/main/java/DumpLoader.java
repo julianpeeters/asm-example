@@ -20,7 +20,7 @@ public class DumpLoader {
     try {
      // ClassLoader loader = ClassLoader.getSystemClassLoader();
       ClassLoader loader = Thread.currentThread().getContextClassLoader();
-      Class cls = Class.forName("java.lang.ClassLoader");
+      Class<?> cls = Class.forName("java.lang.ClassLoader");
       Method method = cls.getDeclaredMethod("defineClass", new Class[] { String.class, byte[].class, int.class, int.class });
 
       // protected method invocaton

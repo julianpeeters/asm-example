@@ -5,8 +5,6 @@
 [0m[[0mdebug[0m] [0m  Classpath:[0m
 [0m[[0mdebug[0m] [0m	/home/julianpeeters/asm-example/target/scala-2.9.1/classes[0m
 [0m[[0mdebug[0m] [0m	/home/julianpeeters/asm-example/lib/asm-all-4.1.jar[0m
-[0m[[0mdebug[0m] [0m	/home/julianpeeters/asm-example/lib/scala-library-2.9.1.jar[0m
-[0m[[0mdebug[0m] [0m	/home/julianpeeters/asm-example/lib/asm-util-4.1.jar[0m
 [0m[[0mdebug[0m] [0m	/home/julianpeeters/.sbt/boot/scala-2.9.1/lib/scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	/home/julianpeeters/.ivy2/cache/org.ow2.asm/asm-all/jars/asm-all-4.1.jar[0m
 [0m[[0mdebug[0m] [0m	Thread run-main exited.[0m
