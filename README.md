@@ -6,6 +6,6 @@ A few examples of objectweb's asm, a java bytecode library. Trying out the ASMif
 
 Put objectWeb's ASM jar in the sbt project's 'lib' directory.
 Run the ASMifier from the sbt project's home directory: 
-    `$ java -cp lib/asm-all-4.1.jar org.objectweb.asm.util.ASMifier target/scala-2.9.1/classes/HelloScala.class>HelloScalaDump.java`
+
 
 This is the Java example.  Please check the branches for examples in each language.
