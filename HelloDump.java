@@ -63,7 +63,7 @@ return cw.toByteArray();
   }
 
   public static void main(String[] args) throws Exception {
-     Class<?> c = loadClass("HelloScala", dump());   //load the class
+     Class<?> c = loadClass("Hello", dump());   //load the class
      try {
        Method mainMethod = c.getMethod("main", String[].class);  //Get the main method
        mainMethod.invoke(null, (Object) new String[]{});        //and invoke it to run the spoofed program
@@ -72,19 +72,4 @@ return cw.toByteArray();
       System.exit(1);
      }
   }
-/*
-
-   public static void main(String[] args) throws Exception {
-        DynamicClassLoader loader = new DynamicClassLoader();
-        Class<?> helloWorldClass = loader.define("Hello", dump());
-        Method method = helloWorldClass.getMethod("main", String[].class);
-        method.invoke(null, (Object) new String[] {});
-    }
-    public static class DynamicClassLoader extends ClassLoader {
-        public Class<?> define(String className, byte[] bytecode) {
-            return super.defineClass(className, bytecode, 0, bytecode.length);
-        }
-    };
-*/
- 
 }
