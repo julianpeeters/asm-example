@@ -3,3 +3,5 @@ ecit
 exit
 run
 exit
+git add . -A
+exit
