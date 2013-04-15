@@ -1,12 +1,26 @@
-[0m[[0minfo[0m] [0mRunning DumpLoader [0m
+[0m[[0minfo[0m] [0mRunning App [0m
 [0m[[0mdebug[0m] [0mStarting sandboxed run...[0m
 [0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
-[0m[[0mdebug[0m] [0mWaiting for thread run-main to exit[0m
 [0m[[0mdebug[0m] [0m  Classpath:[0m
-[0m[[0mdebug[0m] [0m	/home/julianpeeters/asm-example/target/scala-2.9.1/classes[0m
+[0m[[0mdebug[0m] [0m	/home/julianpeeters/asm-example/target/scala-2.10/classes[0m
 [0m[[0mdebug[0m] [0m	/home/julianpeeters/asm-example/lib/asm-all-4.1.jar[0m
-[0m[[0mdebug[0m] [0m	/home/julianpeeters/.sbt/boot/scala-2.9.1/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	/home/julianpeeters/.sbt/boot/scala-2.10.1/lib/scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	/home/julianpeeters/.ivy2/cache/org.ow2.asm/asm-all/jars/asm-all-4.1.jar[0m
+[0m[[0mdebug[0m] [0m	/home/julianpeeters/.ivy2/cache/com.novus/salat-core_2.9.0-1/jars/salat-core_2.9.0-1-0.0.8-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	/home/julianpeeters/.ivy2/cache/com.novus/salat-util_2.9.0-1/jars/salat-util_2.9.0-1-0.0.8-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	/home/julianpeeters/.ivy2/cache/org.slf4j/slf4j-simple/jars/slf4j-simple-1.6.1.jar[0m
+[0m[[0mdebug[0m] [0m	/home/julianpeeters/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.6.1.jar[0m
+[0m[[0mdebug[0m] [0m	/home/julianpeeters/.ivy2/cache/org.scala-lang/scalap/jars/scalap-2.9.0-1.jar[0m
+[0m[[0mdebug[0m] [0m	/home/julianpeeters/.sbt/boot/scala-2.10.1/lib/scala-compiler.jar[0m
+[0m[[0mdebug[0m] [0m	/home/julianpeeters/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.1.jar[0m
+[0m[[0mdebug[0m] [0m	/home/julianpeeters/.ivy2/cache/org.mongodb/mongo-java-driver/jars/mongo-java-driver-2.5.3.jar[0m
+[0m[[0mdebug[0m] [0m	/home/julianpeeters/.ivy2/cache/com.mongodb.casbah/casbah-core_2.9.0-1/jars/casbah-core_2.9.0-1-2.1.5.0.jar[0m
+[0m[[0mdebug[0m] [0m	/home/julianpeeters/.ivy2/cache/com.mongodb.casbah/casbah-commons_2.9.0-1/jars/casbah-commons_2.9.0-1-2.1.5.0.jar[0m
+[0m[[0mdebug[0m] [0m	/home/julianpeeters/.ivy2/cache/org.scalaj/scalaj-collection_2.8.0/jars/scalaj-collection_2.8.0-1.0.jar[0m
+[0m[[0mdebug[0m] [0m	/home/julianpeeters/.ivy2/cache/org.scala-tools.time/time_2.8.0/jars/time_2.8.0-0.2.jar[0m
+[0m[[0mdebug[0m] [0m	/home/julianpeeters/.ivy2/cache/joda-time/joda-time/jars/joda-time-1.6.jar[0m
+[0m[[0mdebug[0m] [0m	/home/julianpeeters/.ivy2/cache/com.mongodb.casbah/casbah-query_2.9.0-1/jars/casbah-query_2.9.0-1-2.1.5.0.jar[0m
+[0m[[0mdebug[0m] [0mWaiting for thread run-main to exit[0m
 [0m[[0mdebug[0m] [0m	Thread run-main exited.[0m
 [0m[[0mdebug[0m] [0mInterrupting remaining threads (should be all daemons).[0m
 [0m[[0mdebug[0m] [0mSandboxed run complete..[0m

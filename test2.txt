@@ -1,0 +1,43 @@
+{
+  case class MyRecord extends AnyRef with Product with Serializable {
+    <caseaccessor> <paramaccessor> private[this] val x: String = _;
+    <stable> <caseaccessor> <accessor> <paramaccessor> def x: String = MyRecord.this.x;
+    def <init>(x: String): MyRecord = {
+      MyRecord.super.<init>();
+      ()
+    };
+    <synthetic> def copy(x: String = x): MyRecord = new MyRecord(x);
+    <synthetic> def copy$default$1: String = MyRecord.this.x;
+    override <synthetic> def productPrefix: String = "MyRecord";
+    <synthetic> def productArity: Int = 1;
+    <synthetic> def productElement(x$1: Int): Any = x$1 match {
+      case 0 => MyRecord.this.x
+      case _ => throw new IndexOutOfBoundsException(x$1.toString())
+    };
+    override <synthetic> def productIterator: Iterator[Any] = runtime.this.ScalaRunTime.typedProductIterator[Any](MyRecord.this);
+    <synthetic> def canEqual(x$1: Any): Boolean = x$1.$isInstanceOf[MyRecord]();
+    override <synthetic> def hashCode(): Int = ScalaRunTime.this._hashCode(MyRecord.this);
+    override <synthetic> def toString(): String = ScalaRunTime.this._toString(MyRecord.this);
+    override <synthetic> def equals(x$1: Any): Boolean = MyRecord.this.eq(x$1.asInstanceOf[Object]).||(x$1 match {
+  case (_: MyRecord) => true
+  case _ => false
+}.&&({
+      <synthetic> val MyRecord$1: MyRecord = x$1.asInstanceOf[MyRecord];
+      MyRecord.this.x.==(MyRecord$1.x).&&(MyRecord$1.canEqual(MyRecord.this))
+    }))
+  };
+  <synthetic> object MyRecord extends scala.runtime.AbstractFunction1[String,MyRecord] with Serializable {
+    def <init>(): MyRecord.type = {
+      MyRecord.super.<init>();
+      ()
+    };
+    final override <synthetic> def toString(): String = "MyRecord";
+    case <synthetic> def apply(x: String): MyRecord = new MyRecord(x);
+    case <synthetic> def unapply(x$0: MyRecord): Option[String] = if (x$0.==(null))
+      scala.this.None
+    else
+      Some.apply[String](x$0.x);
+    <synthetic> private def readResolve(): Object = MyRecord
+  };
+  ()
+}
