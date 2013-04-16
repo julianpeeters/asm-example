@@ -1,6 +1,6 @@
 import java.util.*;
 import org.objectweb.asm.*;
-import org.objectweb.asm.attrs.*;
+//import org.objectweb.asm.attrs.*;
 public class BDump implements Opcodes {
 
 public static byte[] dump () throws Exception {
@@ -13,6 +13,10 @@ AnnotationVisitor av0;
 cw.visit(V1_6, ACC_SUPER, "B", null, "java/lang/Object", null);
 
 {
+fv = cw.visitField(ACC_STATIC, "hello", "Ljava/lang/String;", null, null);
+fv.visitEnd();
+}
+{
 mv = cw.visitMethod(0, "<init>", "()V", null, null);
 mv.visitCode();
 mv.visitVarInsn(ALOAD, 0);
@@ -22,13 +26,12 @@ mv.visitMaxs(1, 1);
 mv.visitEnd();
 }
 {
-mv = cw.visitMethod(ACC_STATIC, "hi", "()V", null, null);
+mv = cw.visitMethod(ACC_STATIC, "<clinit>", "()V", null, null);
 mv.visitCode();
-mv.visitFieldInsn(GETSTATIC, "java/lang/System", "out", "Ljava/io/PrintStream;");
-mv.visitLdcInsn("hi");
-mv.visitMethodInsn(INVOKEVIRTUAL, "java/io/PrintStream", "println", "(Ljava/lang/String;)V");
+mv.visitLdcInsn("hello");
+mv.visitFieldInsn(PUTSTATIC, "B", "hello", "Ljava/lang/String;");
 mv.visitInsn(RETURN);
-mv.visitMaxs(2, 0);
+mv.visitMaxs(1, 0);
 mv.visitEnd();
 }
 cw.visitEnd();
