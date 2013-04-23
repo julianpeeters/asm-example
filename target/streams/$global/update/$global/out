@@ -263,7 +263,7 @@
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.1 in runtime-internal: excluding org.scala-lang#scala-library;2.9.1!scala-library.jar[0m
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.1 in compile-internal: excluding org.scala-lang#scala-library;2.9.1!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.ow2.asm#asm-all;4.1!asm-all.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 319ms :: artifacts dl 14ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 739ms :: artifacts dl 26ms[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 2[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.1 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.1[0m
@@ -312,5 +312,5 @@
 [0m[[0mdebug[0m] [0m	report for com.julianpeeters#asm-example_2.9.1;0.0.1-SNAPSHOT docs produced in /home/julianpeeters/asm-example/target/resolution-cache/reports/com.julianpeeters-asm-example_2.9.1/docs-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
 [0m[[0mdebug[0m] [0m	report for com.julianpeeters#asm-example_2.9.1;0.0.1-SNAPSHOT pom produced in /home/julianpeeters/asm-example/target/resolution-cache/reports/com.julianpeeters-asm-example_2.9.1/pom-resolved.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (319ms resolve - 14ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (739ms resolve - 26ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

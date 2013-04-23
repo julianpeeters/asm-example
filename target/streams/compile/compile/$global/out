@@ -25,10 +25,10 @@
 [0m[[0mdebug[0m] [0m	/home/julianpeeters/asm-example/src/main/java/HelloScalaDump.java[0m
 [0m[[0mdebug[0m] [0mAttempting to call javac directly...[0m
 [0m[[0mdebug[0m] [0mcom.sun.tools.javac.Main not found with appropriate method signature; forking javac instead[0m
-[0m[[0mdebug[0m] [0mForking javac: javac @/tmp/sbt_62bb0654/argfile[0m
+[0m[[0mdebug[0m] [0mForking javac: javac @/tmp/sbt_7cadf8fe/argfile[0m
 [0m[[0mdebug[0m] [0mjavac returned exit code: 0[0m
-[0m[[0mdebug[0m] [0mJava compilation took 1.297731281 s[0m
-[0m[[0mdebug[0m] [0mJava compilation and analysis took 1.736963903 s[0m
+[0m[[0mdebug[0m] [0mJava compilation took 2.961124548 s[0m
+[0m[[0mdebug[0m] [0mJava compilation and analysis took 3.36371306 s[0m
 [0m[[0mdebug[0m] [0mStep 2 changed sources and immdediate dependencies:[0m
 [0m[[0mdebug[0m] [0m	Set(/home/julianpeeters/asm-example/src/main/java/HelloScalaDump.java, /home/julianpeeters/asm-example/src/main/java/DumpLoader.java, /home/julianpeeters/asm-example/src/main/java/HelloScala$Dump.java)[0m
 [0m[[0mdebug[0m] [0mNon-trivial strongly connected components: [0m
