@@ -6,3 +6,6 @@ exit
 git add . -A
 exit
 run
+git add .-A
+git add . -A
+exit
