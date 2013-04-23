@@ -2,19 +2,7 @@ import java.lang.reflect.*;
 
 public class DumpLoader {
 
-  public static void main(String[] args) throws Exception {
-     Class<?> c$ = loadClass("HelloScala$", HelloScala$Dump.dump()); //First load the "anonymous" class
-     Class<?> c = loadClass("HelloScala", HelloScalaDump.dump());   //Then load the "real" class
-     try {
-       Method mainMethod = c.getMethod("main", String[].class);  //Get the main method of the "real" class
-       mainMethod.invoke(null, (Object) new String[]{});        //and invoke it to run the spoofed program
-     } catch (Exception e) {
-      e.printStackTrace();
-      System.exit(1);
-     }
-  }
-
-  private static Class loadClass(String className, byte[] b) {
+  public static Class loadClass(String className, byte[] b) {
     //override classDefine (as it is protected) and define the class.
     Class<?> clazz = null;
     try {
