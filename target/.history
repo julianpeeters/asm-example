@@ -9,3 +9,5 @@ run
 git add .-A
 git add . -A
 exit
+run
+exit
