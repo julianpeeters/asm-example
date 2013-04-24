@@ -14,7 +14,7 @@
 [0m[[0mdebug[0m] [0m	external source: Set()[0m
 [0m[[0mdebug[0m] [0mInitially invalidated: Set(/home/julianpeeters/asm-example/src/main/scala/HelloScala.scala)[0m
 [0m[[0minfo[0m] [0mCompiling 1 Scala source to /home/julianpeeters/asm-example/target/scala-2.10/classes...[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 255d8ff, interfacing (CompilerInterface) with Scala compiler version 2.10.1[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 277e07ae, interfacing (CompilerInterface) with Scala compiler version 2.10.1[0m
 [0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
 [0m[[0mdebug[0m] [0m	-d[0m
 [0m[[0mdebug[0m] [0m	/home/julianpeeters/asm-example/target/scala-2.10/classes[0m
@@ -24,10 +24,10 @@
 [0m[[0mdebug[0m] [0m	/home/julianpeeters/asm-example/target/scala-2.10/classes:/home/julianpeeters/asm-example/lib/asm-all-4.1.jar:/home/julianpeeters/.ivy2/cache/org.ow2.asm/asm-all/jars/asm-all-4.1.jar:/home/julianpeeters/.sbt/boot/scala-2.10.1/lib/scala-compiler.jar:/home/julianpeeters/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.1.jar[0m
 [0m[[33mwarn[0m] [0mthere were 1 feature warning(s); re-run with -feature for details[0m
 [0m[[33mwarn[0m] [0mone warning found[0m
-[0m[[0mdebug[0m] [0mScala compilation took 0.877366705 s[0m
+[0m[[0mdebug[0m] [0mScala compilation took 0.98035813 s[0m
 [0m[[0mdebug[0m] [0mStep 2 changed sources and immdediate dependencies:[0m
-[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0m	Set(/home/julianpeeters/asm-example/src/main/scala/HelloScala.scala)[0m
 [0m[[0mdebug[0m] [0mNon-trivial strongly connected components: [0m
 [0m[[0mdebug[0m] [0m	[0m
 [0m[[0mdebug[0m] [0mStep 2 invalidated sources:[0m
-[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0m	Set(/home/julianpeeters/asm-example/src/main/scala/HelloScala.scala)[0m
