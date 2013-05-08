@@ -1,15 +1,2 @@
 run
-ecit
-exit
-run
-exit
-git add . -A
-exit
-run
-git add .-A
-git add . -A
-exit
-run
-exit
-run
 exit
