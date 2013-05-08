@@ -1,27 +1,29 @@
 import scala.reflect.runtime.universe._	
 import scala.tools.reflect._
 import scala.tools.reflect.ToolBox
+import scala.language.dynamics
 
-trait A {
-  val hi = "Hello A!"
+class DynamicBase extends Dynamic {
+  def selectDynamic(name: String) = name
 }
 /*
-class B extends A {
+class  B extends DynamicBase {
   val hello = "Hello B!"
 }
+
 */
 object HelloScala {
-  type t = {val hi: String; val hello: String}
   def main(args: Array[String]): Unit = {
-   // val b = new B
-   //   println(b.hello)
-   //   println(b.hi)
-    val B = DumpLoader.loadClass("B", BDump.dump())
-    val Bctor = B.getDeclaredConstructor()
-    val b = Bctor.newInstance().asInstanceOf[A]
-    println(b)
-    println(B.getDeclaredField("hi"))   
+    //val b = new B
+    //  println(b.hello)
+
+    val cls = DumpLoader.loadClass("B", BDump.dump())
+      println(cls)      
+
+    val ctor = cls.getDeclaredConstructor()
+    val b = ctor.newInstance().asInstanceOf[DynamicBase]
+      println(b.hello)
 
   }
-  
+
 }

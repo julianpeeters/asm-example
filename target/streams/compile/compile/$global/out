@@ -1,15 +1,45 @@
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
 [0m[[0mdebug[0m] [0m	removed:Set()[0m
-[0m[[0mdebug[0m] [0m	added: Set()[0m
-[0m[[0mdebug[0m] [0m	modified: Set()[0m
-[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/home/julianpeeters/asm-example/src/main/java/BDump.java)[0m
+[0m[[0mdebug[0m] [0m	modified: Set(/home/julianpeeters/asm-example/src/main/scala/HelloScala.scala)[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set(/home/julianpeeters/asm-example/target/scala-2.10/classes/DumpLoader.class, /home/julianpeeters/asm-example/target/scala-2.10/classes/B.class)[0m
 [0m[[0mdebug[0m] [0mModified external sources: Set()[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/julianpeeters/asm-example/src/main/java/BDump.java, /home/julianpeeters/asm-example/src/main/scala/HelloScala.scala)[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
-[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	product: Set(/home/julianpeeters/asm-example/src/main/java/DumpLoader.java, /home/julianpeeters/asm-example/src/main/scala/HelloScala.scala)[0m
 [0m[[0mdebug[0m] [0m	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mInitially invalidated: Set()[0m
+[0m[[0mdebug[0m] [0mInitially invalidated: Set(/home/julianpeeters/asm-example/src/main/java/BDump.java, /home/julianpeeters/asm-example/src/main/scala/HelloScala.scala, /home/julianpeeters/asm-example/src/main/java/DumpLoader.java)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 3 sources: invalidated sources (3) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source and 2 Java sources to /home/julianpeeters/asm-example/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 18ad8e84, interfacing (CompilerInterface) with Scala compiler version 2.10.1[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-d[0m
+[0m[[0mdebug[0m] [0m	/home/julianpeeters/asm-example/target/scala-2.10/classes[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-6-openjdk/jre/lib/resources.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rt.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jsse.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jce.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/charsets.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/netx.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/plugin.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rhino.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/modules/jdk.boot.jar:/usr/lib/jvm/java-6-openjdk/jre/classes:/home/julianpeeters/.sbt/boot/scala-2.10.1/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/julianpeeters/asm-example/target/scala-2.10/classes:/home/julianpeeters/asm-example/lib/asm-all-4.1.jar:/home/julianpeeters/.ivy2/cache/org.ow2.asm/asm-all/jars/asm-all-4.1.jar:/home/julianpeeters/.sbt/boot/scala-2.10.1/lib/scala-compiler.jar:/home/julianpeeters/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.1.jar[0m
+[0m[[0mdebug[0m] [0mScala compilation took 2.652561092 s[0m
+[0m[[0mdebug[0m] [0mCalling Javac with arguments:[0m
+[0m[[0mdebug[0m] [0m	-d[0m
+[0m[[0mdebug[0m] [0m	/home/julianpeeters/asm-example/target/scala-2.10/classes[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/julianpeeters/asm-example/target/scala-2.10/classes:/home/julianpeeters/asm-example/lib/asm-all-4.1.jar:/home/julianpeeters/.sbt/boot/scala-2.10.1/lib/scala-library.jar:/home/julianpeeters/.ivy2/cache/org.ow2.asm/asm-all/jars/asm-all-4.1.jar:/home/julianpeeters/.sbt/boot/scala-2.10.1/lib/scala-compiler.jar:/home/julianpeeters/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.1.jar:/home/julianpeeters/.sbt/boot/scala-2.10.1/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	/home/julianpeeters/asm-example/src/main/java/BDump.java[0m
+[0m[[0mdebug[0m] [0m	/home/julianpeeters/asm-example/src/main/java/DumpLoader.java[0m
+[0m[[0mdebug[0m] [0mAttempting to call javac directly...[0m
+[0m[[0mdebug[0m] [0mcom.sun.tools.javac.Main not found with appropriate method signature; forking javac instead[0m
+[0m[[0mdebug[0m] [0mForking javac: javac @/tmp/sbt_ac1fdd43/argfile[0m
+[0m[[0mdebug[0m] [0mjavac returned exit code: 0[0m
+[0m[[0mdebug[0m] [0mJava compilation took 2.460221814 s[0m
+[0m[[0mdebug[0m] [0mJava compilation and analysis took 2.533570918 s[0m
+[0m[[0mdebug[0m] [0mStep 2 changed sources and immdediate dependencies:[0m
+[0m[[0mdebug[0m] [0m	Set(/home/julianpeeters/asm-example/src/main/scala/HelloScala.scala, /home/julianpeeters/asm-example/src/main/java/BDump.java)[0m
+[0m[[0mdebug[0m] [0mNon-trivial strongly connected components: [0m
+[0m[[0mdebug[0m] [0m	[0m
+[0m[[0mdebug[0m] [0mStep 2 invalidated sources:[0m
+[0m[[0mdebug[0m] [0m	Set(/home/julianpeeters/asm-example/src/main/scala/HelloScala.scala, /home/julianpeeters/asm-example/src/main/java/BDump.java)[0m
